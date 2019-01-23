@@ -1,0 +1,29 @@
+Total F1-score:  0.6301365802502782
+Nucleoplasm: Threshold: 0.221, 预测阳性比例: 44.85%, 实际阳性比例: 41.71%, acc: 84.81%, F1-score: 84.53%
+Nuclear membrane: Threshold: 0.893, 预测阳性比例: 3.96%, 实际阳性比例: 3.99%, acc: 98.43%, F1-score: 89.72%
+Nucleoli: Threshold: 0.318, 预测阳性比例: 10.75%, 实际阳性比例: 11.42%, acc: 95.52%, F1-score: 88.64%
+Nucleoli fibrillar center: Threshold: 0.532, 预测阳性比例: 4.34%, 实际阳性比例: 5.05%, acc: 97.54%, F1-score: 86.25%
+Nuclear speckles: Threshold: 0.174, 预测阳性比例: 5.68%, 实际阳性比例: 5.92%, acc: 97.41%, F1-score: 88.16%
+Nuclear bodies: Threshold: 0.548, 预测阳性比例: 6.87%, 实际阳性比例: 7.53%, acc: 94.89%, F1-score: 80.88%
+Endoplasmic reticulum: Threshold: 0.287, 预测阳性比例: 3.26%, 实际阳性比例: 3.26%, acc: 97.17%, F1-score: 77.53%
+Golgi apparatus: Threshold: 0.456, 预测阳性比例: 7.87%, 实际阳性比例: 9.69%, acc: 96.52%, F1-score: 89.15%
+Peroxisomes: Threshold: 0.527, 预测阳性比例: 0.17%, 实际阳性比例: 0.18%, acc: 99.86%, F1-score: 79.59%
+Endosomes: Threshold: 0.417, 预测阳性比例: 0.14%, 实际阳性比例: 0.21%, acc: 99.91%, F1-score: 87.01%
+Lysosomes: Threshold: 0.845, 预测阳性比例: 0.05%, 实际阳性比例: 0.13%, acc: 99.92%, F1-score: 78.55%
+Intermediate filaments: Threshold: 0.891, 预测阳性比例: 2.74%, 实际阳性比例: 3.37%, acc: 98.06%, F1-score: 83.60%
+Actin filaments: Threshold: 0.733, 预测阳性比例: 2.03%, 实际阳性比例: 2.21%, acc: 98.64%, F1-score: 83.59%
+Focal adhesion sites: Threshold: 0.842, 预测阳性比例: 1.31%, 实际阳性比例: 1.82%, acc: 98.96%, F1-score: 83.07%
+Microtubules: Threshold: 0.640, 预测阳性比例: 3.81%, 实际阳性比例: 3.44%, acc: 98.65%, F1-score: 90.32%
+Microtubule ends: Threshold: 0.810, 预测阳性比例: 0.03%, 实际阳性比例: 0.08%, acc: 99.95%, F1-score: 74.99%
+Cytokinetic bridge: Threshold: 0.501, 预测阳性比例: 0.97%, 实际阳性比例: 1.82%, acc: 98.38%, F1-score: 70.42%
+Mitotic spindle: Threshold: 0.339, 预测阳性比例: 0.42%, 实际阳性比例: 0.73%, acc: 99.23%, F1-score: 66.47%
+Microtubule organizing center: Threshold: 0.256, 预测阳性比例: 3.59%, 实际阳性比例: 2.92%, acc: 96.94%, F1-score: 75.69%
+Centrosome: Threshold: 0.464, 预测阳性比例: 3.73%, 实际阳性比例: 4.84%, acc: 96.24%, F1-score: 77.10%
+Lipid droplets: Threshold: 0.363, 预测阳性比例: 0.98%, 实际阳性比例: 0.59%, acc: 99.05%, F1-score: 69.43%
+Plasma membrane: Threshold: 0.303, 预测阳性比例: 11.80%, 实际阳性比例: 12.08%, acc: 91.77%, F1-score: 80.44%
+Cell junctions: Threshold: 0.529, 预测阳性比例: 2.50%, 实际阳性比例: 2.74%, acc: 97.82%, F1-score: 78.68%
+Mitochondria: Threshold: 0.438, 预测阳性比例: 9.05%, 实际阳性比例: 9.40%, acc: 95.89%, F1-score: 87.74%
+Aggresome: Threshold: 0.525, 预测阳性比例: 0.82%, 实际阳性比例: 0.75%, acc: 99.38%, F1-score: 80.17%
+Cytosol: Threshold: 0.256, 预测阳性比例: 30.19%, 实际阳性比例: 25.95%, acc: 81.84%, F1-score: 77.51%
+Cytoplasmic bodies: Threshold: 0.506, 预测阳性比例: 0.58%, 实际阳性比例: 0.93%, acc: 99.11%, F1-score: 70.29%
+Rods & rings: Threshold: 0.353, 预测阳性比例: 0.06%, 实际阳性比例: 0.04%, acc: 99.95%, F1-score: 74.99%

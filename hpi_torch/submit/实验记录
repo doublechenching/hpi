@@ -1,0 +1,66 @@
+时间: 2018-12-4
+任务: BNInception Baseline
+参数：
+    Epochs = 100
+    SGD(lr=3e-2, momentum=0.9, weight_decay=1e-4)
+    StepLR(optimizer, step_size=10, gamma=0.1)
+
+结果：
+阈值为0.15（epoch 55）: 0.457
+阈值为0.15（epoch 99）: 0.456
+自适应阈值（epoch 55）: 0.426
+
+时间: 2018-12-5
+任务: BNInception with focal loss
+参数：
+    使用BNInception使用BCE第100个epoch的参数预训练
+    Epochs = 48
+    milestones = [(1e-3, 0), (1e-5, 10), (5e-4, 20), (5e-6, 30)]
+    SGD(lr=3e-2, momentum=0.9, weight_decay=1e-4)
+
+结果1：
+使用val f1最大
+阈值为0.15（epoch 55）: 0.385， Val F1 is  0.7118084557257289
+自适应阈值（epoch 55）: 0.441,  Val F1 is  0.7118084557257289
+结果2：
+使用val loss最小
+自适应阈值（epoch 29）: 0.441,  Val F1 is  0.7098499954359015
+
+任务: Base DPN92
+参数：
+    Epochs = 40
+    milestones = [(1e-3, 0), (1e-5, 10), (5e-4, 20), (5e-6, 30)]
+    SGD(lr=3e-2, momentum=0.9, weight_decay=1e-4)
+
+结果1：
+使用val f1最大
+阈值为0.15（epoch 55）: 0.385， Val F1 is  0.7118084557257289
+自适应阈值（epoch 55）: 0.441,  Val F1 is  0.7118084557257289
+结果2：
+使用val loss最小
+自适应阈值（epoch 29）: 0.441,  Val F1 is  0.7098499954359015
+
+任务: Base DPN92 with warm up
+参数：
+    Epochs = 100
+    milestones = [(1e-3, 0), (1e-5, 10), (5e-4, 20), (5e-6, 30)]
+    SGD(lr=3e-2, momentum=0.9, weight_decay=1e-4)
+
+结果1：
+Epoch = 7 val_loss = 0.114155339最小
+自适应阈值: 0.309,  Val F1 is  0.3972574744219937
+Epoch = 41 val f1最大
+自适应阈值: 0.401,  val_loss = 0.145745, val_f1 = 0.663155
+
+时间: 2018-12-6
+任务: Base DPN92 with warm up
+参数：
+    Epochs = 100
+    milestones = [(1e-3, 0), (1e-5, 10), (5e-4, 20), (5e-6, 30)]
+    SGD(lr=3e-2, momentum=0.9, weight_decay=1e-4)
+
+结果1：
+Epoch = 7 val_loss = 0.114155339最小
+自适应阈值: 0.309,  Val F1 is  0.3972574744219937
+Epoch = 41 val f1最大
+自适应阈值: 0.401,  val_loss = 0.145745, val_f1 = 0.663155
